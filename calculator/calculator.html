@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <button onclick="changeTheme()" id="btn">☀︎</button>
+    <div class="rescontainer">
+        <input type="text" placeholder="0" id="resultholder">
+    </div> 
+    <div class="buttonBorder">
+        <div class="buttons">
+        <button onclick="disp(0)"><span class="txt">0</span></button>
+        <button onclick="disp(1)"><span class="txt">1</span></button>
+        <button onclick="disp(2)"><span class="txt">2</span></button>
+        <button onclick="disp(3)"><span class="txt">3</span></button>
+        <button onclick="disp(4)"><span class="txt">4</span></button>
+        <button onclick="disp(5)"><span class="txt">5</span></button>
+        <button onclick="disp(6)"><span class="txt">6</span></button>
+        <button onclick="disp(7)"><span class="txt">7</span></button>
+        <button onclick="disp(8)"><span class="txt">8</span></button>
+        <button onclick="disp(9)"><span class="txt">9</span></button>
+        <button onclick="disp('.')"><span class="txt3">.</span></button>
+        <button onclick="calculate()"><span class="txt3">=</span></button>
+        <button onclick="del()"  id="spl"><span class="txt6">⌫</span></button>
+        <button onclick="clears()" id="spl"><span class="txt3">C</span></button>
+    </div> 
+        <div class="buttons2">
+      
+        <button onclick="disp('+')"><span class="txt2">+</span></button>
+        <button onclick="disp('-')"><span class="txt2">-</span></button>
+        <button onclick="disp('*')"><span class="txt2">x</span></button>
+        <button onclick="disp('/')"><span class="txt2">/</span></button>
+
+    </div>
+     
+    </div> 
+    </div>
+     <script src="calcuator.js"></script>
+</body>
+</html>

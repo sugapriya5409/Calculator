@@ -1,0 +1,190 @@
+body{
+    position:static;
+    background-color: rgba(0, 0, 0, 0.868);
+}
+
+.colorChange{
+    background-color: white;
+}
+
+
+.container{
+    padding: 300px 700px;
+    position: relative;
+    margin-top: -6%;
+
+}
+
+#resultholder{
+    padding: 20px;
+    top: 30px 40px;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bolder;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.499);
+}
+
+
+
+.buttonBorder{
+    border: 2px solid white;
+   padding: 20px;
+    height: 140%;
+    width: 147%;
+    background: #000;
+}
+.buttons{
+   
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+        gap: 5px; /* Adjust the spacing between buttons */
+        margin-left: 80px;
+        margin-top: 25px;
+        padding: 10px;
+    
+}
+
+.buttons2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: -386px;
+    padding: 10px;
+}
+.buttons , .buttons2{
+   gap: 5px;
+  
+}
+
+.buttons2 button{
+    border-radius: 100%;
+    padding: 30px 35px 30px 20px;
+   text-align: left;
+   margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(14, 13, 13);
+    font-size: 20px;
+   color: black;
+    font-weight: bolder;
+    background-color: yellow;
+}
+.buttons button{
+        
+    border-radius: 100%;
+    padding: 30px 35px 30px 20px;
+   text-align: center; 
+   align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(14, 13, 13);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: gray;
+}
+.buttons button .txt{
+    position: absolute;
+    align-content: center;
+    margin-left:0;
+    padding: -10px;
+    margin-top: -10px;
+    font-size: 25px;
+}
+.buttons button .txt1{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -5px;
+  
+}
+.buttons2 button .txt2{
+  
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 2px;
+}
+.buttons button .txt3{
+  
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 2px;
+}
+#spl{
+    
+    background-color: rgb(255, 0, 0)
+}
+.buttons button .txt6{
+  
+    position: absolute;
+    margin-top: -13px;
+    margin-left: -6px;
+}
+
+#btn{
+    padding: 10px;
+    
+    border: none;
+    font-size: larger;
+    
+}
+
+@media(max-width:428px){
+    .container{
+        padding: 52px 4px;
+        position: absolute;
+        top: 60px;
+        position: relative;
+        margin-top: -6%;
+        
+    
+    } 
+    #resultholder{
+        padding: 20px;
+        top: 3px 4px;
+        width: 87%;
+        font-size: 30px;
+        text-align: right;
+        font-weight: bolder;
+     
+        background-color: rgba(128, 128, 128, 0.499);
+    }
+    .buttonBorder{
+        border: 2px solid black;
+       padding: 70px;
+        height: 90%;
+        width: 57%;
+        background: #000;
+    }
+    .buttons{
+   
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+        gap: 2px; /* Adjust the spacing between buttons */
+        margin-left: 20px;
+        margin-top: -60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    
+}
+
+.buttons2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    margin-left: -50px;
+    margin-top: -485px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.buttons , .buttons2{
+    gap: 2px;
+ }
+ 
+}
+
